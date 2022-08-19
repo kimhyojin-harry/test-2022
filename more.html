@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Kokoa Clone</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <h7 class="user-component__subtitle">+ 787 666 999</h7>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-calendar"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-beam"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+      </div>
+
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <div>
+              <span class="more-suggestions__icon-text">Kakao story</span>
+            </div>
+          </div>
+
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <div>
+              <span class="more-suggestions__icon-text">Kakao story</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__chatnotification badge">1</span
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big T.T</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/dd1b2fd4a0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
